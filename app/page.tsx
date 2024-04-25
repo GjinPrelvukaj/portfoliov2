@@ -12,14 +12,14 @@ export default function Home() {
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
-            Hi , I'm Gjin and I am a
+            Hi , I&apos;m Gjin and I am a
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
               Front-End Engineer
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-          I specialize in Node.js, Next.js, and Express.js for robust back-end development, alongside React.js for intuitive UIs. Additionally, I'm proficient in WordPress development through both experience and certifications.          </p>
+          I specialize in Node.js, Next.js, and Express.js for robust back-end development, alongside React.js for intuitive UIs. Additionally, I&apos;m proficient in WordPress development through both experience and certifications.          </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
               href="/my-skills"
