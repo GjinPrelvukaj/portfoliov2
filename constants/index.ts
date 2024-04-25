@@ -1,3 +1,4 @@
+import { link } from "fs";
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
 export const SkillData = [
@@ -51,59 +52,80 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
-  {
     name: "Node js",
     Image: "/node-js.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
+    name: "Wordpress",
+    Image: "/wordpress.png",
+    width: 80,
+    height: 80,
   },
+  {
+    name: "MySQL",
+    Image: "/mysql.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "PHP",
+    Image: "/php.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Python",
+    Image: "/python.png",
+    width: 80,
+    height: 80,
+  },
+
 ];
 
 export const Socials = [
   {
     name: "Github",
     src: "/github-mark-white.svg",
+    link: 'https://github.com/GjinPrelvukaj'
+    
   },
   {
     name: "LinkedIn",
     src: "/linkedin-white.svg",
+    link: 'https://www.linkedin.com/in/gjin-prelvukaj-3bab5b23a/'
   },
   {
     name: "Instagram",
     src: "/instagram.svg",
+    link: 'https://www.instagram.com/gjinprelvukaj/'
   },
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "Portfolio ",
+    text: "This was the first portfolio i have ever made using React.js , ChackraUI and Tailwind ",
+    src: "/portfolio.png",
+    link: 'https://github.com/GjinPrelvukaj/Portfolio'
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "Balkatour",
+    text: "I was part of a team which we participated on a race with the whole balkan for the best project",
+    src: "/balkatour.png",
+    link: "https://github.com/lirikrexhepi/Balkatour"
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    title: "Stress Free Corner",
+    text: "A project which i made called 'Stress Free Corner' , which i created and managed using wordpress",
+    src: "/sfc.png",
+    link: 'https://stressfreecorner.co/'
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "Fix My Downloads",
+    text: "A website and a software i made using python to help organize your Downloads folder",
+    src: "/fmd.png",
+    link: 'https://fmd-website-zeta.vercel.app/'
   },
 ];
 

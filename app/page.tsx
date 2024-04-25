@@ -15,7 +15,7 @@ export default function Home() {
             Hi , I'm Gjin and I am a
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
-              Front-End Engeneer
+              Front-End Engineer
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
